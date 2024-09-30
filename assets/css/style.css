@@ -95,7 +95,38 @@ main {
 
 /* Footer */
 footer {
-  background-color: orange;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid black; 
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.footer-content p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  color: #6AB7D9;
+  gap: 20px;
+  padding: 0;
+}
+
+.copyright {
+  font-size: small;
+  color: #36454F;
+  margin-top: 10px;
 }
 
 /* Media query: tablets and larger (768px and up) */
