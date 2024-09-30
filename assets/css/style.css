@@ -118,9 +118,14 @@ footer {
 .social-icons {
   display: flex;
   list-style: none;
-  color: #6AB7D9;
   gap: 20px;
   padding: 0;
+}
+
+.social-icons i {
+  font-size: 160%;
+  color: #6AB7D9;
+  padding: 5%;
 }
 
 .copyright {
