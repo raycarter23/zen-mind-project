@@ -24,7 +24,10 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
-  /* box-shadow: 0 2px 2px #2C3E50; */
+  box-shadow: 0 2px 2px #2C3E50;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
@@ -32,15 +35,18 @@ header a {
   color: inherit;
 }
 
+/*  */
+
 h1 {
   font-family: 'karla', sans-serif;
+  text-transform: uppercase;
   letter-spacing: 2px;
   color: #2C3E50;
   /* font-size: 150%; */
 }
 
 #menu {
-  font-size: 120%;
+  font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
 }
@@ -60,13 +66,27 @@ nav {
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  /* box-shadow: 0 2px 2px #6AB7D9; */
+  box-shadow: 0 2px 2px #2C3E50;
   display: none;
+  top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+  }  
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 /* Main Content */
 main {
-  background-color: lightgray;
+  background-color: lightcoral;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
 }
@@ -75,3 +95,6 @@ main {
 footer {
   background-color: orange;
 }
+
+
+
