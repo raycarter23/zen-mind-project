@@ -247,6 +247,7 @@ ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
 .founder {
@@ -259,6 +260,7 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding: 40px;
 }
 
 .founder {
@@ -271,6 +273,11 @@ ol {
 .john {
   width: 400px;
   height: 600px;
+  border-radius: 10px;
+}
+
+.story {
+  text-align: right;
 }
 
 /* Footer */
