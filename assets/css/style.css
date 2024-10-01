@@ -86,12 +86,19 @@ nav {
 
 /* Main Content */
 main {
-  background-color: lightcoral;
+  background-color: #ffffff;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
   
 }
+
+/* Hero Section */
+.hero {
+  background-color: #F5F9FF;
+}
+
+
 
 /* Footer */
 footer {
