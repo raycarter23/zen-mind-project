@@ -261,8 +261,11 @@ ol {
   gap: 30px;
 }
 
-.my-story {
-  
+.founder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
 
 .john {
