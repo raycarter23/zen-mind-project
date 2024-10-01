@@ -21,6 +21,8 @@ body {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .flex {
@@ -121,6 +123,26 @@ main {
   background-color: #F5F9FF;
 }
 
+.left-side {
+  text-align: center;
+}
+
+.left-side p {
+  padding: 0 25px;
+  margin: 10px 0;
+}
+
+.left-side a {
+  display: block;
+  background-color: #2C3E50;
+  color:#ffffff;
+  text-decoration: none;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 12px 0;
+}
 
 /* Footer */
 footer {
