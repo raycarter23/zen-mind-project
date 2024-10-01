@@ -217,6 +217,21 @@ summary {
   margin-bottom: 10px;
 }
 
+.learn-more-image {
+  max-width: 375px;
+  max-height: 475px;
+  border-radius: 20px;
+}
+
+.affirmations, .affirmations-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
 /* Footer */
 footer {
   background-color: #ffffff;
