@@ -301,6 +301,10 @@ ol {
   text-align: right;
 }
 
+.map {
+  width: 800px;
+}
+
 /* Footer */
 footer {
   background-color: #ffffff;
@@ -404,6 +408,10 @@ footer {
 
   .john {
     height: 500px;
+  }
+
+  .map {
+    width: 300px;
   }
 
 
