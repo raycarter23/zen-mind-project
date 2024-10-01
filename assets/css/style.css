@@ -231,6 +231,12 @@ summary {
   gap: 20px;
 }
 
+ol {
+  display: flex; 
+  flex-direction: column;
+  gap: 10px;
+}
+
 
 /* Footer */
 footer {
