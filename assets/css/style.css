@@ -231,12 +231,44 @@ summary {
   gap: 20px;
 }
 
+.affirmations {
+  padding: 50px;
+}
+
 ol {
   display: flex; 
   flex-direction: column;
   gap: 10px;
 }
 
+/* About Page */
+.about-zen, .founder-image, .our-values, .find-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder {
+  display: flex;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.my-story {
+  
+}
+
+.john {
+  width: 400px;
+  height: 600px;
+}
 
 /* Footer */
 footer {
