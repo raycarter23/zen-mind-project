@@ -453,6 +453,10 @@ footer {
     margin-top: 79px;
   }
 
+  .card {
+    text-align: left;
+  }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
