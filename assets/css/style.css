@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 2560px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -457,6 +457,17 @@ footer {
     text-align: left;
   }
 
+  .closer-look {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .affirmations-list {
+    /* overflow: hidden; */
+    font-size: large;
+    padding: 0 20px;
+  }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -465,4 +476,13 @@ footer {
     border-bottom: 2px solid #6AB7D9;
   }
   
+}
+
+/* Very large devices (desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
+  .video-box {
+    width: 1200px;
+    height: 750px;
+    align-self: center;
+  }
 }
