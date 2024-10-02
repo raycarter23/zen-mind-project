@@ -401,8 +401,8 @@ footer {
   }
 
   .story {
-    text-align: center;
-    padding: 0 60px;
+    text-align: left;
+    padding: 0 30px;
     padding-bottom: 30px;
   }
 
@@ -411,7 +411,7 @@ footer {
   }
 
   .map {
-    width: 300px;
+    width: 300px !important;
   }
 
 
