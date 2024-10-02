@@ -481,8 +481,8 @@ footer {
 /* Very large devices (desktops, 1440px and up) */
 @media screen and (min-width: 1440px) {
   .video-box {
-    width: 1200px;
-    height: 750px;
+    width: 1000px;
+    height: 650px;
     align-self: center;
   }
 }
