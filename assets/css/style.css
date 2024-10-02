@@ -470,6 +470,18 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+  .john {
+    width: 300px;
+    height: 450px; 
+   }
+
+   .map {
+    width: 600px;
+    height: 400px;
+   }
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
