@@ -1,131 +1,205 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Zen Mind
 
-Welcome Ray Carter,
+[View live project here on GitHub](https://raycarter23.github.io/zen-mind-project/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Zen Mind is a mental health awareness organisation, which provides resources for individuals that are looking for mental health support.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+[![zen-mind-home-page.png](https://i.postimg.cc/6qdvfnSz/zen-mind-home-page.png)](https://postimg.cc/vxZTQgG6)
 
 ------
+## Contents
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
+## User Experience (UX)
 
-## FAQ about the uptime script
+### User Stories
 
-**Why have you added this script?**
+### Primary Goal
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Zen Mind is a mental health awareness platform and community.
 
-**How will this affect me?**
+They required a clean and calming website which reflects the organisation’s mission of providing reliable information and support to individuals’ mental health support.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Visitor Goals
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Zen Mind’s visitors include people from diverse backgrounds and have varying levels of familiarity with mental health topics.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The site was designed to be user-friendly and have a minimalistic theme to it so that users could easily navigate through the site and access mental health resources. It was designed to be responsive, with the content adjusting to desktop and mobile devices.
 
-**So….?**
+### First Time Visitor
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+A user can access each page of the site through the navigation bar, which includes links to all the pages.
 
-**Can I opt out?**
+------
+## Creation Process
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Wireframes
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Wireframe - Home Page
 
-**Anything more?**
+[![Wireframe-Page-1-Home.png](https://i.postimg.cc/1R0grxxF/Wireframe-Page-1-Home.png)](https://postimg.cc/Wt3bsH1p)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Wireframe - Learn More Page 
 
----
+[![Wireframe-Page-2-Learn-More.png](https://i.postimg.cc/sDwvbpgD/Wireframe-Page-2-Learn-More.png)](https://postimg.cc/xcNfzNmW)
 
-Happy coding!
+Wireframe - About Page
+
+[![Wireframe-Page-3-About.png](https://i.postimg.cc/jS2LTLD6/Wireframe-Page-3-About.png)](https://postimg.cc/Sn0y7Q7j)
+
+Wireframe - Contact Us Page 
+
+[![Wireframe-Page-4-Contact-Us.png](https://i.postimg.cc/Zqyn92FC/Wireframe-Page-4-Contact-Us.png)](https://postimg.cc/t1ppwrcj)
+
+------
+## Design
+
+### Colour Scheme
+
+I used ChatGPT to generate a primary text colour and a background colour for my website. My goal was to create a calming and aesthetic theme that would go well with a site focused on mental health awareness. 
+
+I then used Adobe to test out other colour themes and generate the following colour palette:
+
+[![colour-palette.png](https://i.postimg.cc/T1S77KFd/colour-palette.png)](https://postimg.cc/64rfTpBg)
+
+The theme needed to meet web accessibility standards. WCAG defines a minimum colour contrast ratio of 4.5:1 for normal text and 3:1 for large text. I tested the contrast ratio using Adobe’s colour contrast checker tool, which gave me a contrast ratio of 10.4:1, which ensured good readability for visually impaired individuals.
+
+[![adobe-color-contrast-ratio.png](https://i.postimg.cc/Bv6h0c3S/adobe-color-contrast-ratio.png)](https://postimg.cc/QF2gg7Vw)
+
+### Typography
+
+I used Google Fonts to import the fonts 'Lato' and 'Karla'. Lato and Karla are both sans-serif fonts, and are ones that have been used widely as a font pairing. I used Karla for headings, and Lato for the main body of text on my website.
+
+[![lato-and-karla-fonts.png](https://i.postimg.cc/bvhmGc1v/lato-and-karla-fonts.png)](https://postimg.cc/18vGTdCx)
+
+### Imagery
+
+
+
+------
+## Page Features
+
+Navbar
+
+[![nav-bar.png](https://i.postimg.cc/xT10K4Vj/nav-bar.png)](https://postimg.cc/z34ZNpf4)
+
+Hero Image
+
+[![hero-section.png](https://i.postimg.cc/rwdMHRpv/hero-section.png)](https://postimg.cc/fVhGtLmK)
+
+Footer
+
+[![footer.png](https://i.postimg.cc/6pDtx62T/footer.png)](https://postimg.cc/68LDdXhN)
+
+------
+## Tablet and Mobile View
+
+Mobile View
+
+[![Mobile-View-320px.png](https://i.postimg.cc/L6Km2Nb9/Mobile-View-320px.png)](https://postimg.cc/PN4gMzH9)
+
+Tablet View
+
+[![Tablet-View-768-px.png](https://i.postimg.cc/GmDY97cX/Tablet-View-768-px.png)](https://postimg.cc/k2nDpyRS)
+
+Laptop View
+
+[![Laptop-View-1024-px.png](https://i.postimg.cc/MHX5L71g/Laptop-View-1024-px.png)](https://postimg.cc/0KR7MJWC)
+
+------
+## Future Features
+
+- For future development, I would like to create a responsive contact form for the Contact Us page.
+- I would also add a well being tips section, and a get help section which would have a list of useful contacts that users could reach out to. 
+- Another cool feature could be a mental health quiz for users to fill out, which would display information according to their responses or score
+
+------
+## Technologies Used
+
+### Languages Used
+
+ - HTML5
+ - CSS3
+
+### Frameworks, Libraries, Technologies and Programs Used
+
+ - GitHub - to save and store files for the website
+ - Git - for version control
+ - Balsamiq - to create wireframes
+ - Google Fonts - to import the fonts used for the website
+ - Font Awesome - to download icons that were added to the website
+ - Adobe Color - to generate a colour palette, and check color contrast ratio
+ - Favicon.io - to generate a favicon of the website’s logo
+ - Tinify - for image compression
+ - Google Dev Tools - for debugging, and ensuring the site is response across devices
+ - Google Lighthouse - to carry out an audit of the website
+ - W3C Validator - to validate the HTML and CSS code, and to resolve any errors in the HTML and CSS code
+
+------
+## Testing
+
+### HTML Validation using W3C Validation
+
+Home Page
+
+[![html-validation-about-page.png](https://i.postimg.cc/sx3yP8z3/html-validation-about-page.png)](https://postimg.cc/njS6p3MW)
+
+Learn More Page
+
+[![html-validation-learn-more-page.png](https://i.postimg.cc/9XBcXWP0/html-validation-learn-more-page.png)](https://postimg.cc/HjjqB1h1)
+
+About Page
+
+[![html-validation-about-page.png](https://i.postimg.cc/sx3yP8z3/html-validation-about-page.png)](https://postimg.cc/njS6p3MW)
+
+Contact Us Page
+
+[![html-validation-contact-page.png](https://i.postimg.cc/655tyDz0/html-validation-contact-page.png)](https://postimg.cc/4nMr02D7)
+
+### CSS Validation using W3C Validation
+
+CSS Validation
+
+[![CSS-Validation.png](https://i.postimg.cc/Qx4s50yr/CSS-Validation.png)](https://postimg.cc/qz39HXrm)
+
+------
+## Credits
+
+### Content References
+
+[Code Institute](https://codeinstitute.net/) - for their HTML/CSS learning material
+
+[MDN Web Docs](https://developer.mozilla.org/) - for additional learning resources
+
+[Browserstack](https://www.browserstack.com/) - for information on media queries and breakpoints
+
+[Responsive Viewer](https://responsiveviewer.org/) - to test out site responsiveness on mobile and laptop devices
+
+[Stack Overflow](https://stackoverflow.com/) - to assist with technical issues
+
+[SheCodes](https://www.shecodes.io/) - to assist with resolving issues with flexbox and grid display
+
+[Dribbble](https://dribbble.com/) - to get UI design inspiration
+
+[Mental Health Foundation](https://www.mentalhealth.org.uk/) - to get some design and layout inspiration
+
+[Mind](https://www.mind.org.uk/) - to get some design and layout inspiration
+
+[Loremipsum.io](http://Loremipsum.io)  -  to generate placeholder dummy text
+
+[ChatGPT](https://chatgpt.com/) - for content generation and colour theme generation
+
+[Post Image](https://postimages.org/) - to generate URL links for screenshots and images captured for the purpose of this project
+
+### Media References
+
+[Canva](https://www.canva.com/) - to create a logo for the site
+
+[Favicon](https://favicon.io/favicon-converter/) - to create the favicon for the site
+
+[Adobe](https://www.adobe.com/) - colour theme generation
+
+[Font Awesome](https://fontawesome.com/) - for the icons used in the footer, and also the burger menu which displays on mobile devices
+
+[Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) - for all images used on the site. Credit to photographers: Michael Proctor, Dagmara Dombrovska, Dakota Corbin, Ty Williams
